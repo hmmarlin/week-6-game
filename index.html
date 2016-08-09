@@ -6,31 +6,35 @@ create an html file with:
 -->
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>SPORTS R COOL!</title>
-<!-- 	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="style.css"> -->
+    <title>SPORTS R COOL!</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!--     <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-	<h1>sports R so CooOL!!</h1>
-	<h3>Select any of the buttons below to see GIFs appear of that sport. Don't see your favorite listed? Type it in and watch the button magically appear!</h3>
-	<div id="buttons-area">
-	<!-- load buttons here form array -->
-	</div>
-
-  <form id="sport-form">
-    <label for="sport-input">Add a sport!</label>
-    <input type="text" id="sport-input"><br>
-    <input id="addSport" type="submit" value="Play Ball!">
-  </form>
-
-	<div id="display-gif">
-	<!-- display gifs on push of button -->
-	</div>
+    <h1>sports R so CooOL!!</h1>
+    <h3>Select any of the buttons below to see GIFs appear of that sport. Don't see your favorite listed? Type it in and watch the button magically appear!</h3>
+ 
+    <div id="buttons-area">
+        <!-- load buttons here form array -->
+    </div>
+    <form id="sport-form">
+        <label for="sport-input">Add your favorite sport: </label>
+        <input type="text" id="sport-input">
+        <br>
+        <input id="addSport" type="submit" value="Add Sport!">
+    </form>
+<!--     <div class="main"> -->
+	    <div id="display-gif">
+	        <!-- display gifs on push of button -->
+	    </div>
+<!--     </div> -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
-
-
-
 </body>
+
 </html>

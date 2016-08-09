@@ -1,0 +1,42 @@
+body {
+	margin-left: 20px;
+	margin-right:20px;
+	background-color: #B4D7BF;	
+
+}
+
+.sport, #addSport {
+	color:green;
+	background-color:#CFDBC5;
+	border:solid green 1px;
+	border-radius: 25px;
+	font-size:15px;
+	padding:5px;
+	margin:5px;
+}
+
+
+#display-gif {
+	background-image: url("background.jpg"); 
+	color: white;
+	border: black 1px solid;
+}
+
+h1 {
+	font-family: 'Indie Flower', Serif;
+	color: green;
+	text-align: center;
+	font-size:50px;
+}
+
+.item {
+/*	float:left;*/
+	padding:15px;
+}
+
+p {
+	background-color: white;
+	width: 100px;
+	color:green;
+	font-size:20px;
+}
